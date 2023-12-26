@@ -1,7 +1,7 @@
 [  {
     "kernelSource": {
       "name": "mmondrian-s",
-      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
+      "repo": "https://github.com/erelease/Xiaomi_Kernel_OpenSource",
       "branch": "mondrian-s-oss",
       "device": "K60"
     },

@@ -153,7 +153,7 @@ jobs:
           args: ${{ steps.generate-args.outputs.args }}
         run: |
           echo "PATH Variable: $PATH"
-          tools/bazel build //common:kernel_aarch64_dist
+          make ${args}  O=out
 
       - name: "💛 Upload Image"
         uses: actions/upload-artifact@v3
