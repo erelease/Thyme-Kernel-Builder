@@ -3,7 +3,7 @@
       "name": "mmondrian-s",
       "repo": "https://github.com/erelease/Xiaomi_Kernel_OpenSource",
       "branch": "mondrian-s-oss",
-      "device": "K60"
+      "device": "gki"
     },
     "withKernelSU": false,
     "toolchains": [
