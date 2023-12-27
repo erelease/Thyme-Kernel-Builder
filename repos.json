@@ -28,5 +28,36 @@
       "AR": "",
       "CC": "clang"
     }
+  },
+  {
+  "kernelSource": {
+    "name": "android12-5.10.177",
+    "repo": "https://android.googlesource.com/kernel/common",
+    "branch": "android12-5.10-2023-07",
+    "device": "gki"
+  },
+  "withKernelSU": false,
+  "toolchains": [
+    {
+      "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
+      "branch": "master",
+      "name": "gas"
+    },
+    {
+      "repo": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86",
+      "branch": "main",
+      "name": "clang"
+    }
+    
+  ],
+  "params": {
+    "ARCH": "arm64",
+    "CROSS_COMPILE": "aarch64-linux-gnu-",
+    "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+    "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
+    "CLANG_TRIPLE": "aarch64-linux-gnu-",
+    "AR": "",
+    "CC": "clang"
   }
+}
 ]
