@@ -25,7 +25,7 @@
     "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
     "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
     "CLANG_TRIPLE": "aarch64-linux-gnu-",
-    "AR": "",
+    "AR": "gki_",
     "CC": "clang"
   }
 },
@@ -65,7 +65,7 @@
     "name": "mmondrian-s",
     "repo": "https://github.com/mondrian-development/android_kernel_xiaomi_mondrian",
     "branch": "mondrian-s-oss",
-    "device": "gki_"
+    "device": ""
   },
   "withKernelSU": false,
   "toolchains": [
