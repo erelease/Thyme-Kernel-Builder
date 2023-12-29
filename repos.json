@@ -2,7 +2,38 @@
 {
   "kernelSource": {
     "name": "mondrian-s-docker",
-    "repo": "https://github.com/DOITfit/android_kernel_xiaomi_mondrian",
+    "repo": "https://github.com/erelease/android_kernel_xiaomi_mondrian",
+    "branch": "rebase",
+    "device": "gki"
+  },
+  "withKernelSU": false,
+  "toolchains": [
+    {
+      "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
+      "branch": "master",
+      "name": "gas"
+    },
+    {
+      "repo": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86",
+      "branch": "main",
+      "name": "clang"
+    }
+    
+  ],
+  "params": {
+    "ARCH": "arm64",
+    "CROSS_COMPILE": "aarch64-linux-gnu-",
+    "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+    "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
+    "CLANG_TRIPLE": "aarch64-linux-gnu-",
+    "AR": "",
+    "CC": "clang"
+  }
+},
+{
+  "kernelSource": {
+    "name": "mondrian-s-docker",
+    "repo": "https://github.com/erelease/android_kernel_xiaomi_mondrian",
     "branch": "rebase",
     "device": "docker"
   },
@@ -29,5 +60,6 @@
     "AR": "",
     "CC": "clang"
   }
+  
 }
 ]
