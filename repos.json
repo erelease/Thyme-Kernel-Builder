@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "android12-5.10.177",
-      "repo": "https://github.dev/erelease/Android_kernel_common",
+      "repo": "https://github.com/erelease/Android_kernel_common",
       "branch": "android12-5.10-2023-07",
       "device": "docker"
     },
